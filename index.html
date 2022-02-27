@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Salvatore Boarding School</title>
+	<link rel="icon" href="sb.jpg" type="image/icon type">
+	<script type="text/javascript" src="validation.js"></script>
+	<style type="text/css">
+		html, body{
+			background-image: url(wden.jpg);
+			margin: 0;
+			height: 100%;
+		}
+
+		.sh1 img{
+			padding: 15px 10px 15px;
+			border-radius: 100px 100px 100px 100px;
+			height: 150px;
+			width: 180px;
+		}
+		.sh1{
+			background-image: url(oldpaper.jpg);
+			border-radius: 100px 0px 100px 0px;
+			display: flex;
+
+
+		}
+		#heading{
+			width: 100%;
+			float: left;
+			margin: 10px 10px 0px;
+			display: inline;
+			overflow: hidden;
+		}
+		#heading h1{
+			text-align: center;
+			font-size: 50px;
+			font-weight: normal;
+			line-height: 30px;
+		}
+		#heading h5{
+			float: right;
+			font-size: 15px;
+		}
+		#heading p{
+			text-align: center;
+			font-size: 20px;
+			line-height: 18px;
+			font-weight: normal;
+		}
+
+		#heading h3{
+			text-align: center;
+			font-size: 25px;
+			font-family: Lucida Calligraphy;
+		}
+
+		#nevigation{
+			background-image: url(wden2.jpg);
+			height: 40px;
+			margin-top: 2px;
+			text-align: center;
+			overflow: hidden;
+			display: block;
+			padding-top: 10px;
+			
+
+		}
+
+		#nevigation a{
+			font-weight: bold;
+			font-family: Gill Sans;
+			color: black;
+			font-size: x-large;
+			overflow: hidden;
+			text-decoration: none;
+			transition: all 1s;
+			line-height: 20px;
+		}
+
+		#nevigation a:hover{
+			overflow: hidden;
+			font-size: xx-large;
+			color: #ffe4c4;
+
+		}
+
+		#nevigation a:active{
+			color: ghostwhite;
+		}
+
+
+		#loginPage{
+			background-image: url(Brown Vintage Ripped Paper Quote Note Instagram.png);
+			height: 700px;
+			height: 500px;
+		}
+
+		input[type=text], input[type=password] {
+		  width: 100%;
+		  padding: 15px;
+		  margin: 5px 0 22px 0;
+		  border: none;
+		  background: #f1f1f1;
+		}
+
+		input[type=text]:focus, input[type=password]:focus {
+		  background-color: #ddd;
+		  outline: none;
+		}
+
+		.btn {
+		  background-image: url(oldppr.png);
+		  color: black;
+		  padding: 16px 20px;
+		  border: none;
+		  cursor: pointer;
+		  width: 100%;
+		  opacity: 0.9;
+		  border-radius: 10px;
+		  text-decoration-color: black;
+		  font-family: Gill Sans;
+		  font-size: 20px;
+		}
+
+		.btn:hover {
+		  opacity: 5;
+		  box-shadow: 0px 1px 0px 1px ;
+
+		}
+
+		*{
+			box-sizing: border-box;
+		}
+
+		#bckimg img {
+			height: 1000px;
+			width: 750px;
+			display: block;
+			border-radius: 20px;
+			float: right;
+			position: relative;
+		}
+
+		#ftable{
+			float: right;
+			margin-top: 300px;
+			display: block;
+			position: absolute;
+			right: 175px;
+		}
+
+		#sb4img{
+			float: right;
+			margin-top: 110px;
+			display: inline;
+			position: absolute;
+			right: 225px;	
+		}
+
+		#mikelsons img{
+			height: 1000px;
+			width: 599px;
+			position: relative;
+			overflow: hidden;
+			left: 0px;
+			display: inline;
+			float: left;
+
+		}
+
+	</style>
+</head>
+<body>
+
+
+	<div class="sh1">
+	
+		<img src="sb.jpg">
+			<div id="heading">
+				<h5>Since 1864</h5>
+				<h1>Salvatore's Boarding School</h1>
+				<p> Mystic Falls, Virginia, USA</p>
+				<h3>For Young and Gifted...</h3>
+			</div>
+	</div>
+
+	<div id="nevigation">
+		<a href="index.html">Home &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+		<a href="about.html">&nbsp About Us &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+		<a href="admsn.html">&nbsp Admission &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+		<a href="contact.html">&nbsp Contact &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+		<a href="gallery.html">&nbsp Gallery &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+		<a href="faq.html">&nbsp FAQ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+	</div>
+
+	<div id="mikelsons">
+		<img src="mikelsons.jpg">
+	</div>
+
+	<div id="bckimg">
+		<img src="Brown Vintage Ripped Paper Quote Note Instagram.png">
+	</div>
+
+	<div id="farum">
+		<form id="loginPage" method="post" action="database.php" onsubmit= "return valid()" name="login">
+			<table id="ftable">
+				<img src="sb4.png" id="sb4img">
+				<tr>
+					<th colspan="2"><h1>Campus Log In Portal</h1></th>
+				</tr>
+				<tr>
+					<td>
+						<input type="radio" id="student" name="usertype" value="Student" >
+						<label for="student"><b>Student Log In</b></label>
+						&nbsp &nbsp &nbsp &nbsp
+					</td>
+					<td>
+						<input type="radio" id="staff" name="usertype" value="yes">
+						<label for="staff"><b>Faculty Log In</b></label>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<label for="uname"><h3>Username :</h3></label>&nbsp &nbsp &nbsp &nbsp
+					</td>
+					<td>
+						<input type="text" name="uname" placeholder="Enter Username" >
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<label for="mobil"><h3>Mobile No. :</h3></label>&nbsp &nbsp &nbsp &nbsp
+					</td>
+					<td>
+						<input type="text" name="mobil" placeholder="Enter Mobile number" >
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<label for="pwd"><h3>Password :</h3></label>&nbsp &nbsp &nbsp &nbsp
+					</td>
+					<td>
+						<input type="password" id="pwd" name="pwd" placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one special character and one uppercase and lowercase letter, and at least 8 or more characters"  > 
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<label for="repwd"><h3>Confirm Password :</h3></label>&nbsp &nbsp &nbsp &nbsp
+					</td>
+					<td>
+						<input type="password" id="repwd" name="repwd" placeholder="Re-Enter Password" > 
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<button onclick = "LogInSucessfull.html" class="btn" >
+							<b>Log In</b>
+						</button>
+					</td>
+
+					<td>
+						<button class="btn">
+							<b>Forgot Password?</b>
+						</button>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<label><h3>New User?</h3></label>
+					</td>
+					<td>
+						<button class="btn">
+							<b>Create account</b>
+						</button>
+					</td>
+				</tr>
+			
+
+
+
+			</table>
+		</form>
+		
+	</div>
+	
+
+
+</body>
+</html>
